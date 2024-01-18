@@ -1,0 +1,29 @@
+input {
+    font-family: 'Raleway', sans-serif;
+}
+
+header > section {
+    width: 100%;
+    background-color: lightblue;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+#todoInp {
+    font-size: 24px;
+    padding: 12px 24px;
+    margin-right: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    font-size: 24px;
+    margin-top: 24px;
+    margin-right: 36px;
+    padding: 12px 24px;
+}

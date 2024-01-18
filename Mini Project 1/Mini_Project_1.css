@@ -1,0 +1,23 @@
+#topbar {
+    background-color: #779ecb;
+    padding: 24px;
+}
+.menu-item {
+    font-size: 24px;
+    padding: 8px;
+    font-weight: 600 ;
+}
+#list-heading {
+    font-size: 20px;
+    padding-left: 24px;
+}
+.food-list-item {
+    font-size: 20px ;
+}
+.food-image {
+    width: 350px;
+    height: 300px;
+}
+.food-wrapper {
+    text-align: center;
+}

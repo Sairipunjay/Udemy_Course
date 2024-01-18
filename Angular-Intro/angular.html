@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Angular Intro</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    </head>
+    <body>
+        <div ng-app="" ng-init="topic = 'JavaScript Framework'">
+            <p>The angular JS is <span ng-bind="topic"></span></p><br>
+            <p>Name: <input type="text" placeholder="Enter you Name" ng-model="name"></p><br>
+            <p>{{name}}</p>
+        </div>
+    </body>
+</html> -->
+
+<!-- <!DOCTYPE html>  
+<html>  
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>  
+<body>  
+<div ng-app="myApp" ng-controller="myCtrl">  
+{{ firstName + " " + lastName }}  
+</div>  
+<script>  
+var app = angular.module("myApp", []);  
+app.controller("myCtrl", function($scope) {  
+    $scope.firstName = "Ajeet";  
+    $scope.lastName = "Maurya";  
+});  
+</script>  
+</body>  
+</html>   -->
+
+<!DOCTYPE html>  
+<html>  
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>  
+<body>   
+    <h2>Products</h2>
+<div *ngFor="let product of products">
+
+    <h3>
+        {{ product.name }}
+    </h3>
+  
+</div>
+</script>  
+</body>  
+</html>  
